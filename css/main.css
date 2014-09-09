@@ -1,0 +1,81 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.image{
+  position: relative;
+}
+
+.caption{
+  position: absolute; 
+  bottom: 0; 
+  left: 1em; 
+  width: 100%;
+  color: white;
+  font-family: serif;
+  font-style: italic;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.content{
+}
+
+.title{
+   padding-left: 0.5em;
+}
+
+.fig{
+  margin: 0;
+  position: relative;
+}
+
+.steg{
+  border-collapse: collapse;
+}
+
+.steg td{
+  border-right: 1px solid gray;
+  padding-right: 10em;
+  padding-left: 1em;
+}
+
+.steg td:last-child{
+  border: 0;
+}
+
+.header{
+  color: gray;
+  text-transform: uppercase;
+}
+
+.desc{
+}
